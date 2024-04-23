@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    background-color: white;
+    margin: 0 auto; 
+    max-width: 1000px; 
+    padding: 20px; 
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.header{
+    padding: 20px 10%;
+    left: 0;
+    background: rgb(224, 201, 218);
+    justify-content: space-between;
+}
+.h1{
+    text-align: center;
+    color: #100f0f;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(230, 210, 230);
+    text-align: center;
+    text-indent: 10px;
+    line-height: 1.5;
+}
+
+.name,.information, .objective, .education, .hobbies, .skills, .computer, .certificate, .interest, .details, .social-links {
+    margin: 0;
+    text-align: left;
+}
+
+h2 {
+    color: #110f0f;
+}
+
+table{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid #000;
+    padding: 8px;
+}
+th{
+    background-color: #06fa5cdd;
+}
+
+.header {
+    padding: 20px 10%;
+    background: rgb(234, 199, 224);
+}
+
+.name{
+    background-color: rgb(237, 240, 202);
+}
+.information {
+    background-color: rgb(214, 237, 255);
+    padding: 10px;
+}
+
+.education {
+    background-color: rgb(255, 231, 213);
+    padding: 10px;
+}
+
+.skills {
+    background-color: rgb(230, 239, 212);
+    padding: 10px;
+}
+
+.computer {
+    background-color: rgb(241, 219, 219);
+    padding: 10px;
+}
+
+.certificate {
+    background-color: rgb(240, 223, 250);
+    padding: 10px;
+}
+
+.hobbies {
+    background-color: rgb(230, 234, 255);
+    padding: 10px;
+}
+
+.details {
+    background-color: rgb(246, 240, 196);
+    padding: 10px;
+}
+
+.social-links {
+    background-color: rgb(224, 247, 235);
+    padding: 10px;
+}
